@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Bungee', cursive;
+    font-weight: normal;
+}
+
+body,
+input,
+textarea {
+    font-family: 'Alkatra', cursive;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #12121C;
+    color: #fff;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: #12121C;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.initial-logo {
+    height: 280px;
+    margin-right: 32px;
+}
+
+.social-media li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-media li a {
+    text-decoration: none;
+}
+
+.social-media img {
+    height: 24px;
+}
+
+.easter-egg li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.easter-egg li a {
+    text-decoration: none;
+}
+
+.easter-egg img {
+    height: 24px;
+}
+
+
+.categories img {
+    height: 24px;
+}
+
+.categories li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.categories li a{
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #242438;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #12121C;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #12121C;
+}
+
+footer {
+    padding: 16px 0;
+    background-color: #12121C;
+    color: #fff;
+}
