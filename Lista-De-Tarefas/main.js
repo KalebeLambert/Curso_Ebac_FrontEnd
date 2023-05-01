@@ -9,17 +9,15 @@ $('document').ready(function(){
     $('form').on('submit', function(e){
         e.preventDefault();
         const atividade = $('#atividade').val();
-        const atividades = $('tbody td').map(function(){
+        const atividades = $('ul li').map(function(){
             return $(this).text().trim();
         }).get();
         if (atividades.includes(atividade)) {
-            alert('Esta atividade já está incluída na tabela!');
+            alert('Esta atividade já está incluída na lista!');
         } else {
-            const novoItem = $('<tr></tr>');
-            $(`<td>${atividade}</td>`).appendTo(novoItem);
-            $(novoItem).appendTo('tbody');
+            $('<li>').text(atividade).appendTo('ul');
             $('#atividade').val('');
         }
     })
-    
+
 })

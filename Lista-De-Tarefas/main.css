@@ -72,8 +72,13 @@ form button{
 }
 
 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .container{
@@ -89,21 +94,17 @@ ul{
     max-width: 50%;
 }
 
-th{
-    padding: 24px;
-}
-
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-td {
+li{
     display: flex;
     flex-direction: column;
-    padding: 5px 0 5px 0;
+    padding: 5px 10px;
     margin: 1px;
     justify-content: center;
     align-items: center;
     border: 1px solid #fff;
+    cursor: pointer;
+}
+
+li:hover{
+    text-decoration: line-through;
 }
