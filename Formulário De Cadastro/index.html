@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário De Cadastro</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h2>Formulário De Cadastro</h2>
+    </header>
+    <div class="container">
+        <form action="">
+            <div class="form-campo">
+                <label for="">Nome Completo:</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <div class="form-campo">
+                <label for="">E-mail:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="form-campo">
+                <label for="">Telefone:</label>
+                <input type="tel" name="telefone" id="telefone">
+            </div>
+            <div class="form-campo">
+                <label for="">CPF:</label>
+                <input type="text" name="cpf" id="cpf">
+            </div>
+            <div class="form-campo">
+                <label for="">CEP:</label>
+                <input type="text" name="cep" id="cep">
+            </div>
+            <div class="form-campo">
+                <label for="">Endereço:</label>
+                <input type="text" name="endereco" id="endereco">
+            </div>
+            <div class="buttom">
+                <button type="submit" id="enviar">Enviar</button>
+                <button type="reset" id="cancelar">Cancelar</button>
+            </div>
+        </form>
+    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
