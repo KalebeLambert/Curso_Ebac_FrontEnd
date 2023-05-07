@@ -3,6 +3,16 @@ $(document).ready(function(){
     $('#cpf').mask('000.000.000-00');
     $('#cep').mask('00000-000');
 
+    
+    
+    
+    
+    
+    //As linhas abaixo são apenas para fins de estudo proprio, caso queira, pode ser removida.
+    //Fazem parte de um codigo para autocompletar o campo "endereço" com base no seu CEP
+    
+    
+    
     function formatarCEP(cep) {
         return cep.replace(/\D/g, '');
       }
