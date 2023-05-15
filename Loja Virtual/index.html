@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Stone'Store</h1>
+            <form>
+                <input type="search" placeholder="Pesquisar Produtos">
+                <button type="submit">Buscar</button>
+            </form>
+        </div>
+        <div class="botao-menu">
+            <button type="button">Abrir Menu</button>
+        </div>
+
+        <nav class="container">
+            <ul class="menu">
+                <li>
+                    Itens
+                    <ul class="submenu">
+                        <li>
+                            <a href="#">Mármore</a>
+                        </li>
+                        <li>
+                            <a href="#">Pedras Preciosas</a>
+                        </li>
+                        <li>
+                            <a href="#">Outros</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="conteudo container">
+        <div class="sobre-loja">
+            <div>
+              <img src="https://via.placeholder.com/320x320" alt="Imagem da loja">
+            </div>
+            <div>
+              <h2>Sobre A Loja</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod sapien vel neque finibus, vel iaculis velit tincidunt. Sed bibendum lectus vel risus ullamcorper, vel fringilla tellus sagittis. Sed euismod posuere velit, sed eleifend ex ultrices vel. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed bibendum massa nec quam tristique, vitae tristique ipsum faucibus. Sed malesuada dolor vel urna euismod sagittis. Fusce ut pulvinar elit. In hac habitasse platea dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis euismod congue metus at imperdiet. Sed tempor, elit quis rutrum egestas, urna nisl eleifend justo, eu iaculis elit sapien et nulla.</p>
+            </div>
+          </div>
+          
+        <div>
+            <h2>Produtos</h2>
+            <div class="produtos">
+                <div class="produto">
+                    <div class="produtos-numeros">
+                        <h3>Produto 1</h3>
+                        <img src="https://via.placeholder.com/320x320" alt="Imagem do produto 1">
+                        
+                        <p>Descrição</p>
+                        <button>Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="produto">
+                    <div class="produtos-numeros">
+                        <h3>Produto 2</h3>
+                        <img src="https://via.placeholder.com/320x320" alt="Imagem do produto 2">
+                        
+                        <p>Descrição</p>
+                        <button>Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="produto">
+                    <div class="produtos-numeros">
+                        <h3>Produto 3</h3>
+                        <img src="https://via.placeholder.com/320x320" alt="Imagem do produto 3">
+                        
+                        <p>Descrição</p>
+                        <button>Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+                <div class="produto">
+                    <div class="produtos-numeros">
+                        <h3>Produto 4</h3>
+                        <img src="https://via.placeholder.com/320x320" alt="Imagem do produto 4">
+                        
+                        <p>Descrição</p>
+                        <button>Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $('.botao-menu').click(function(){
+                $('.menu').slideToggle();
+            })
+        })
+    </script>
+</body>
+</html>
